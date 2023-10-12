@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "0cea7fb7-90bb-49f9-b3c4-f9f14fee9fbe",
+		"name": "Inditex-Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10768157"
+	},
+	"item": [
+		{
+			"name": "getPrices",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currentDate\": \"2020-12-31T23:59:59\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/inditex/technical-test/prices",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"inditex",
+						"technical-test",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
