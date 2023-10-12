@@ -19,7 +19,7 @@ public class PriceController {
     private final PriceService priceService;
     private final PriceDtoMapper priceDtoMapper;
 
-    @GetMapping("/prices/")
+    @GetMapping("/prices")
     public ResponseEntity<PriceDto> getAll(@RequestBody PriceRequestDto priceRequest) {
         PriceDto priceResponse = priceDtoMapper.toDto(priceRequest.getCurrentDate(),
                 priceService.getPricesByDateProductAndBrand(priceRequest.getCurrentDate(), priceRequest.getProductId(), priceRequest.getBrandId()));

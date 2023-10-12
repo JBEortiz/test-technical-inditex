@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 class PriceControllerIt {
 
-    public static final String URL_GET_PRICE= "/inditex/technical-test/prices/";
+    public static final String URL_GET_PRICE= "/inditex/technical-test/prices";
 
     @Autowired
     private MockMvc mockMvc;
