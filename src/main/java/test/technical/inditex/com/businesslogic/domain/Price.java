@@ -1,4 +1,4 @@
-package test.technical.inditex.com.domain;
+package test.technical.inditex.com.businesslogic.domain;
 
 import lombok.*;
 
@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Price {
-    private Long brandId;
+    private Integer brandId;
 
     private String brandName;
 
@@ -18,9 +18,9 @@ public class Price {
 
     private LocalDateTime endDate;
 
-    private Long priceList;
+    private Integer priceList;
 
-    private Long productId;
+    private Integer productId;
 
     private Integer priority;
 
