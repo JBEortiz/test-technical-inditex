@@ -3,7 +3,6 @@ package test.technical.inditex.com.infrastructure.entity;
 import lombok.*;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
 import java.sql.Timestamp;
 @Entity
 @Builder

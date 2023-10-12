@@ -9,9 +9,6 @@ import test.technical.inditex.com.presentation.dto.PriceDto;
 import test.technical.inditex.com.presentation.dto.PriceRequestDto;
 import test.technical.inditex.com.presentation.mapper.PriceDtoMapper;
 
-import java.sql.Timestamp;
-import java.time.LocalDateTime;
-
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("inditex/technical-test")
